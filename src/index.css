@@ -1,0 +1,16 @@
+html,
+body {
+  background-color: #0f131a;
+  color: #fff !important;
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden !important;
+}
+@media (max-width: 768px) {
+  .center-small {
+    text-align: center;
+  }
+  .xm-center {
+    justify-content: center;
+  }
+  
+}

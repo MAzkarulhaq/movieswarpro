@@ -1,0 +1,16 @@
+.bgpreview {
+  /* background-image: url(./assets/community.jpg); */
+  background-image: url(./assets/community.jpg);
+  background-position: center right;
+  background-size: cover;
+  background-color: red;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .bgpreview {
+    background-position: inherit;
+  }
+}
